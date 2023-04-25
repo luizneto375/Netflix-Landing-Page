@@ -2,4 +2,4 @@
 
  - html css js
 
- - botão com play pra ver uma previa do filme
+ - botão com play pra ver uma previa do filme.
