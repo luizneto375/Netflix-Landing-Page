@@ -1,50 +1,50 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="folha de estilo" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integridade="sha384-QYIZto+st3yW+ o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" origem cruzada="anônimo">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <title>Netflix_Landing_Page_</title>
 
 </head>
 <body>
     <header>
-        <a class="logo" href="/imagens/logo.png">logo-da-Netflix</a>
+        <a href="#" class="logo"><img src="/imagens/logo.png" alt="Netflix"></a>
         <ul class="navigation">
-            <li><a href="#">Start</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">TV Shows</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Latest</a></li>
             <li><a href="#">My list</a></li>
         </ul> 
         <div class="search">
-            <input type="text" placeholder="search">
+            <input type="text" placeholder="Search">
            
         </div> 
     </header>
 
-    <div class ="banner">
-       <img class="bg" src="/imagens/bg.jpg" alt="Mulan"> 
+    <div class="banner">
+       <img src="/imagens/bg.jpg" class="bg" alt="Mulan">
 
-       <div classe ="conteúdo">
-        <img src="/imagens/name.png"class="movieTitle" alt="Disney">
+       <div class="content">
+        <img src="/imagens/name.png" class="movieTitle" alt="Disney">
         <h4> 
             <span>2020</span>
             <span><i>12+</i></span>
             <span>1h 55min</span>
-            <span>Ação</span>
+            <span>Action</span>
         </h4>
         <p>
             A superprodução é uma nova versão da animação Mulan, de 1998, e uma adaptação da lenda chinesa sobre a luta de uma menina que supera desafios e demonstra seu valor, não só para salvar o Império Chinês e honrar sua família, como também para assegurar um interesse romântico e casamento futuro
         </p>
-        <div class="botões">
-            <a href="#"><i class="fa fa-play"aria-hidden="true"></i>Reproduzir</a >
-            <a href="#"><i class="fa fa-plus"aria-hidden="true"></i>My List</a>​
+        <div class="buttons">
+            <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+            <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
         </div>
        </div>
-       <a class="play"onclick="toggleVideo()"><img src="/imagens/play.png">Watch the Trailer</a>
+      <a class="play" onclick="toggleVideo()"><img src="/imagens/play.png" alt="">Watch Trailer</a> 
     </div>
 
     <div class="trailer">
@@ -52,5 +52,5 @@
         <img src="/imagens/close.png" class="close" onclick="toggleVideo()" alt="trailer-da-Mulan">
     </div>
 </body>
-<script src="/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </html>
